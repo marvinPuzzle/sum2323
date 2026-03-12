@@ -1,0 +1,27 @@
+{
+  "name": "sum2323",
+  "version": "1.0.0",
+  "description": "sum numbers",
+  "homepage": "https://github.com/marvinPuzzle/sum2323#readme",
+  "bugs": {
+    "url": "https://github.com/marvinPuzzle/sum2323/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvinPuzzle/sum2323.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "main": "./index.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
