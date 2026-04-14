@@ -12,8 +12,15 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "main": "./index.cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
