@@ -23,10 +23,12 @@
   "main": "./index.cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it"
+    "release": "release-it",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^10.0.6",
+    "auto-changelog": "^2.5.0",
     "release-it": "^19.2.4"
   }
 }
